@@ -1,4 +1,4 @@
-package com.jasonhhouse;
+package com.jasonhhouse.solution1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

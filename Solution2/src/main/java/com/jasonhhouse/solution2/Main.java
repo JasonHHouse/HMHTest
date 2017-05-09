@@ -1,4 +1,4 @@
-package com.jasonhhouse;
+package com.jasonhhouse.solution2;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 /**
  * Created by Jason on 5/8/2017.
  */
-public class Main2 {
+public class Main {
 
     public static void main(String[] args) {
         List<String> words = new ArrayList<>();
@@ -69,6 +69,8 @@ public class Main2 {
 
     private static <T extends Comparable> ArrayList<ArrayList<T>> permute(List<T> permuteList) {
         ArrayList<ArrayList<T>> results = new ArrayList<>();
+        
+        results.add(new ArrayList<T>());
 
         for (T aPermuteList : permuteList) {
             ArrayList<ArrayList<T>> current = new ArrayList<>();
